@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family:"Roboto";
+    src: url("./fonts/Roboto-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+    font-family:"Rokkitt";
+    src: url("./fonts/Rokkitt-VariableFont_wght.ttf");
+}
+
+@theme{
+    --color-soft-turquoise: hsl(180, 57%, 49%);
+    --color-soft-rouge: hsl(345, 91%, 55%);
+    --color-soft-bleu: hsl(197, 70%, 74%);
+    --color-soft-blue-turqoise: hsl(197, 32%, 54%);
+    --color-soft-gris: hsl(0, 0%, 87%);
+    --color-soft-gris-foncer: hsl(203, 24%, 19%);
+    
+
+
+    --font-roboto: "Roboto";
+    --font-rokkitt: "Rokkitt";
+}
+
